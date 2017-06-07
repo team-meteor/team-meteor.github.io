@@ -1,14 +1,12 @@
 .iu-center-box {
   width:960px;
 }
-.iu-page {
-  min-width:960px;
+.index {
+  height:100%;
 }
 .page-content {
   background-color:#FFFFFF;
-}
-.section {
-  height:720px;
+  height:100%;
 }
 .box {
   border-color:#DBDBDB;
@@ -24,17 +22,17 @@
 }
 .box-16 {
   bottom:0px;
-  height:95%;
+  height:73.47%;
   left:0px;
-  margin-left:auto;
-  margin-right:auto;
+  margin:auto;
   padding-top:10px;
   right:0px;
+  top:0px;
   width:95%;
 }
 .text-12 {
   float:none;
-  height:25%;
+  height:33%;
   margin-left:auto;
   margin-right:auto;
   position:relative;
@@ -42,7 +40,7 @@
 }
 .text-11 {
   float:none;
-  height:25%;
+  height:33%;
   margin-left:auto;
   margin-right:auto;
   position:relative;
@@ -51,61 +49,61 @@
 }
 .text-14 {
   float:none;
-  height:25%;
+  height:33%;
   margin-left:auto;
   margin-right:auto;
   position:relative;
   text-align:left;
   width:180px;
 }
-.text-13 {
-  bottom:0px;
-  height:10%;
-  right:0px;
-  text-align:right;
-  width:180px;
-}
 @media screen and (max-width:959px) {
   .iu-center-box {
     width:320px;
   }
-  .iu-page {
-    min-width:320px;
+  .index {
+    height:100%;
+  }
+  .page-content {
+    height:100%;
+  }
+  .section {
+    height:100%;
   }
   .box {
     bottom:0px;
+    float:none;
     left:0px;
     margin:auto;
+    position:absolute;
     right:0px;
     top:0px;
   }
   .box-16 {
-    bottom:0px;
+    bottom:initial;
+    bottom:auto;
+    float:none;
+    height:75.59%;
     left:0px;
     margin-left:auto;
     margin-right:auto;
+    position:absolute;
     right:0px;
+    top:10%;
   }
   .text-12 {
+    height:33%;
     margin-left:auto;
     margin-right:auto;
   }
   .text-11 {
-    float:none;
+    height:33%;
     margin-left:auto;
     margin-right:auto;
   }
   .text-14 {
-    float:none;
+    height:33%;
     margin-left:auto;
     margin-right:auto;
-  }
-  .text-13 {
-    bottom:initial;
-    bottom:auto;
-    float:none;
-    right:initial;
-    right:auto;
   }
 
 }
