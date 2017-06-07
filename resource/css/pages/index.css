@@ -11,17 +11,30 @@
   height:720px;
 }
 .box {
+  border-color:#DBDBDB;
+  border-radius:5px;
+  border-width:1px;
   bottom:0px;
-  height:119px;
+  height:266px;
   left:0px;
   margin:auto;
   right:0px;
   top:0px;
   width:231px;
 }
+.box-16 {
+  bottom:0px;
+  height:85.83%;
+  left:0px;
+  margin:auto;
+  padding-top:10px;
+  right:0px;
+  top:0px;
+  width:90%;
+}
 .text-12 {
   float:none;
-  height:50%;
+  height:25%;
   margin-left:auto;
   margin-right:auto;
   position:relative;
@@ -29,7 +42,7 @@
 }
 .text-11 {
   float:none;
-  height:50%;
+  height:25%;
   margin-left:auto;
   margin-right:auto;
   position:relative;
@@ -37,15 +50,20 @@
   width:180px;
 }
 .text-14 {
+  float:none;
+  height:25%;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  text-align:left;
+  width:180px;
+}
+.text-13 {
   bottom:0px;
-  font-size:14px;
-  height:25px;
-  padding:14px;
-  position:fixed;
+  height:10%;
   right:0px;
-  text-align:center;
-  width:255px;
-  z-index:11;
+  text-align:right;
+  width:180px;
 }
 @media screen and (max-width:959px) {
   .iu-center-box {
@@ -55,6 +73,13 @@
     min-width:320px;
   }
   .box {
+    bottom:0px;
+    left:0px;
+    margin:auto;
+    right:0px;
+    top:0px;
+  }
+  .box-16 {
     bottom:0px;
     left:0px;
     margin:auto;
@@ -71,8 +96,16 @@
     margin-right:auto;
   }
   .text-14 {
-    bottom:0px;
-    right:0px;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .text-13 {
+    bottom:initial;
+    bottom:auto;
+    float:none;
+    right:initial;
+    right:auto;
   }
 
 }
