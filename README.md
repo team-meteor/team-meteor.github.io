@@ -1,6 +1,3 @@
-### raywenderlich
-- yooyt@naver.com
-- 미티어2017
 
 ### project manager
 - 백로그 및 일정 관리
